@@ -1,10 +1,17 @@
 {
-  "seq": 15,
   "title": "Cloud Forensics Readiness for SMEs Using Microsoft 365 Business",
-  "slug": "cloud-forensics-readiness-for-smes-using-microsoft-365",
+  "old_slug": "cloud-forensics-readiness-for-smes-using-microsoft-365",
+  "slug": "m365-cloud-forensics-readiness",
   "folder": "Cloud_Forensics_Readiness_For_Smes_Using_Microsoft",
   "kind": "forensics",
-  "body_words": 247,
+  "body_words": 325,
+  "source": "SCI700",
   "project_id": "Project 8",
-  "source": "SCI700"
+  "public": {
+    "public_ok": true,
+    "tier": "public-ok",
+    "reasons": [
+      "Showcase-ready design pack with labelled synthetic baseline"
+    ]
+  }
 }

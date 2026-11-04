@@ -1,24 +1,40 @@
 # Cloud Forensics Readiness for SMEs Using Microsoft 365 Business
 
-Portfolio pack by Md Shohrab Hossen Niaz. Fictional / laboratory SME context unless noted. Professional delivery artefact — not a course-code wrapper.
+**Author:** Md Shohrab Hossen Niaz  
+**Focus:** forensics  
+**Visibility guidance:** public-ok
+
+## Overview
+
+Direct fit to MSc Cyber Security & Forensics; cloud evidence + M365.
 
 ## Research questions
 
-1. What readiness artefacts preserve evidence lawfully?
-2. Which tools fit SME budgets?
-3. How is chain of custody maintained?
+1. What business problem does “Cloud Forensics Readiness for SMEs Using Microsoft 365 Business” solve for an SME or partner organisation?
+2. Which artefacts demonstrate a credible, implementable solution?
+3. How is success measured without overstating lab or synthetic evidence?
 
-## Artefacts
+## Deliverables
 
 - readiness checklist
 - collection SOP
-- lab validation notes
+- chain-of-custody notes
+- Report and presentation (`Final_Submission/`)
+- Evaluation scorecard (`02_Evaluation/`)
+- Design notes (`01_Design/`)
+- Baseline evidence JSON (`evidence/`)
 
-## Contents
+## Repository layout
 
-- `Final_Submission/` — report, slides, read-me
-- `01_Design/` — design and method notes
-- `02_Evaluation/` — workbook / scorecard
-- `evidence/` — synthetic or lab JSON baseline
+```
+01_Design/           Design and method notes
+02_Evaluation/       Scorecard workbook
+evidence/            Baseline evidence model
+Final_Submission/    Report, slides, appendices
+```
 
-Repository: `cloud-forensics-readiness-for-smes-using-microsoft-365`
+## Limits
+
+Synthetic or laboratory baselines are labelled. No production tenant secrets. Where a topic could imply offensive techniques, this pack stays defensive and high-level.
+
+**GitHub:** `m365-cloud-forensics-readiness`
